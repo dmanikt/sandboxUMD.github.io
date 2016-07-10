@@ -1,0 +1,17 @@
+.topnav {
+  background-color: transparent;
+  width: 100%;
+  z-index: 99;
+  height: 120px;
+  line-height: 120px;
+  font-size: 1.25em;
+  font-family: $nav-font;
+  a {
+    text-decoration: none;
+  }
+}
+
+.navcontent {
+  width: 100%;
+  text-align: center;
+}
