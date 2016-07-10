@@ -1,0 +1,48 @@
+@import "utils";
+body {
+  font-family: $main-font;
+  a {
+    text-decoration: none;
+  }
+}
+
+.greenText {
+  color: $primary-color;
+  a {
+    color: $primary-color;
+  }
+}
+
+.whiteText {
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+.spacerFifty {
+  height: 50px;
+}
+
+.spacerTen {
+  height: 10px;
+}
+
+.spacerForty {
+  height: 40px;
+}
+
+.spacerSixty {
+  height: 60px;
+}
+
+.row {
+  @include clearfix;
+}
+
+section {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

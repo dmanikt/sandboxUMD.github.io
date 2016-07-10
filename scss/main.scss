@@ -1,0 +1,15 @@
+$main-font: 'Open Sans',
+sans-serif;
+$title-font: 'Blogger Sans',
+sans-serif;
+$nav-font: 'Open Sans',
+sans-serif;
+$primary-color: #00B572;
+$nav-height: 85px;
+@import "normalize";
+@import "grid";
+@import "standards";
+@import "firstscreen";
+@import "navStyles";
+@import "utils";
+@import "home";
