@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <title>about</title>
+  <script type="text/javascript">
+    function loader() {
+      var dynamicHeight = window.innerWidth / 1440 * 692;
+      var newHeight = dynamicHeight.toString() + 'px';
+      document.getElementById("nogaImage").style.height = newHeight;
+      var bgSize = window.innerWidth.toString() + 'px ' + newHeight;
+      console.log("New backgroundSize =" + bgSize + ".");
+      document.getElementById("nogaImage").style.backgroundSize = bgSize;
+      document.getElementById("nogaImage").style.lineHeight = newHeight;
+    }
+  </script>
+
+
+</head>
+
+<body class="greenText" onLoad="loader()" onResize="loader()">
+  <!-- First -->
+  <section>
+    <div class="container">
+      <div class="topnav">
+        <div class="row">
+          <a href="about.html">
+            <div class="offset-by-one two columns navcontent">
+              <strong>
+              about
+              </strong>
+            </div>
+          </a>
+          <div class="two columns navcontent">
+            people
+          </div>
+          <div class="two columns navcontent">
+            projects
+          </div>
+          <div class="two columns navcontent">
+            request
+          </div>
+          <div class="two columns navcontent">
+            events
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nogaImage" id="nogaImage">
+      <div class="container">
+        <div class="row">
+          <div class="text-wrapper title">
+            Sandbox is a place for you to create, innovate, and discover.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="spacerEighty"></div>
+    <div class="container">
+      <div class="row">
+        <div class="title greenText">
+          we welcome all disciplines
+        </div>
+      </div>
+      <div class="spacerTen">
+      </div>
+      <div class="row">
+        <div class="subtitleText greyText">
+          Sandbox is a student-run space for artists, designers, and hackers to create amazing things. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+      </div>
+      <div class="spacerEighty"></div>
+      <div class="row">
+        <div class="three columns">
+
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+
+</html>
