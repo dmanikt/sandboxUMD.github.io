@@ -477,6 +477,7 @@ th {
     margin-left: 52%; } }
 
 body {
+  background: #00B572;
   font-family: "Open Sans", sans-serif; }
   body a {
     text-decoration: none; }
@@ -547,21 +548,47 @@ section {
   text-align: center;
   font-size: 1.5em; }
 
-.logo {
-  width: 100%; }
 
-.mapClick {
-  text-align: center;
-  font-size: 1em; }
-  .mapClick img {
-    width: 40px; }
+/*People Page*/
 
-.nogaImage {
-  color: white;
-  text-align: center;
-  width: 100%;
-  background-image: url("../assets/noga.png");
-  position: relative; }
+.person {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 2% 1em;
+  opacity: .9; }
+  .person:hover {
+    opacity: 1; }
+  
+.person_wrapper {
+  margin:0 auto;
+  width: 50px;
+  text-align:center;
+}
+@media screen and (min-width: 20em) {
+  .page-people .person {
+    width: 45%; } }
+@media screen and (min-width: 720px) {
+  .page-people .person {
+    width: 20%; } }
+@media screen and (min-width: 60em) {
+  .page-people .person {
+    width: 20%; } }
+@media screen and (min-width: 76.5em) {
+  .page-people .person {
+    width: 20%; } }
+.page-people .person p {
+  font-size: .8em;
+  color: #000;
+  text-align: center; }
+  .page-people .person p span {
+    font-size: .7em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 5px; }
+.page-people .hero h1 {
+  color: #222; }
+
 
 .text-wrapper {
   display: inline-block;
