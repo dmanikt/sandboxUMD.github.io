@@ -566,25 +566,19 @@ section {
 
 /*People Page*/
 .person {
+  position: relative;
   display: inline-block;
   vertical-align: top;
   margin: 0 2% 1em;
   opacity: .9; }
   .person:hover {
     opacity: 1; }
-  @media screen and (min-width: 20em) {
-    .person {
-      width: 20%; } }
-  @media screen and (min-width: 720px) {
-    .person {
-      width: 8.5%; } }
-  @media screen and (min-width: 60em) {
-    .person {
-      width: 8.5%; } }
-  @media screen and (min-width: 76.5em) {
-    .person {
-      width: 8.5%; } }
-
+  
+.person_wrapper {
+  margin:0 auto;
+  width: 50px;
+  text-align:center;
+}
 @media screen and (min-width: 20em) {
   .page-people .person {
     width: 45%; } }
