@@ -563,6 +563,53 @@ section {
   background-image: url("../assets/noga.png");
   position: relative; }
 
+
+/*People Page*/
+.person {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 2% 1em;
+  opacity: .9; }
+  .person:hover {
+    opacity: 1; }
+  @media screen and (min-width: 20em) {
+    .person {
+      width: 20%; } }
+  @media screen and (min-width: 720px) {
+    .person {
+      width: 8.5%; } }
+  @media screen and (min-width: 60em) {
+    .person {
+      width: 8.5%; } }
+  @media screen and (min-width: 76.5em) {
+    .person {
+      width: 8.5%; } }
+
+@media screen and (min-width: 20em) {
+  .page-people .person {
+    width: 45%; } }
+@media screen and (min-width: 720px) {
+  .page-people .person {
+    width: 20%; } }
+@media screen and (min-width: 60em) {
+  .page-people .person {
+    width: 20%; } }
+@media screen and (min-width: 76.5em) {
+  .page-people .person {
+    width: 20%; } }
+.page-people .person p {
+  font-size: .8em;
+  color: #000;
+  text-align: center; }
+  .page-people .person p span {
+    font-size: .7em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 5px; }
+.page-people .hero h1 {
+  color: #222; }
+
+
 .text-wrapper {
   display: inline-block;
   vertical-align: middle;
