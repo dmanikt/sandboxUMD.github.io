@@ -539,10 +539,12 @@ section {
   text-align: center; }
 
 .title {
+  color: white;
   font-family: "Blogger Sans", sans-serif;
   text-align: center;
-  font-size: 3em;
-  font-weight: bold; }
+  font-size: 1.5em;
+
+}
 
 .subtitleText {
   text-align: center;
@@ -588,7 +590,9 @@ section {
     margin-right: 5px; }
 .page-people .hero h1 {
   color: #222; }
-
+.face{
+  border-radius: 50%;
+}
 
 .text-wrapper {
   display: inline-block;
