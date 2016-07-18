@@ -562,9 +562,9 @@ h1, .h1 {
   margin: 0 0 1.25rem; }
 
 h2, .h2 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 3rem;
-  text-transform: uppercase; }
+  }
 
 h3, .h3 {
   font-weight: 400;
@@ -639,7 +639,6 @@ section, footer {
   margin: -1.5rem 0 2.5rem; }
   .team:after {
     content: " ";
-    /* Older browser do not support empty content */
     visibility: hidden;
     display: block;
     height: 0;
@@ -665,7 +664,7 @@ section, footer {
     -o-transition: 0.15s 0s ease transform;
     transition: 0.15s 0s ease transform; }
     .team .person-wrapper .person {
-      padding: 1.5rem;
+      padding: .5rem 2.5rem;
       position: absolute;
       border: 2px solid transparent;
       left: 4px;
@@ -679,14 +678,16 @@ section, footer {
       border: 2px solid transparent;
       }
       .team .person-wrapper .person:after, .team .person-wrapper .person:before {
-        background-color: #ffffff; }
+        background-color: #ffffff; 
+      }
       .team .person-wrapper .person .name, .team .person-wrapper .person .title {
-        display: none; }
+        display: none;
+      }
       .team .person-wrapper .person img {
         border-radius: 50%;
         z-index: 1;
         position: relative;
-        margin-bottom: .375rem; }
+        margin-bottom: 1rem; }
     .team .person-wrapper:hover {
       transform: scale(1);
       overflow: visible;
