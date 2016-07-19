@@ -647,7 +647,7 @@ section, footer {
     color: #111111; }
   .team .person-wrapper {
     width: 25%;
-    padding-bottom: 25%;
+    padding-bottom: 28%;
     display: inline-block;
     position: relative;
     float: left;
@@ -682,12 +682,13 @@ section, footer {
       }
       .team .person-wrapper .person .name, .team .person-wrapper .person .title {
         display: none;
+        padding-bottom: 5px;
       }
       .team .person-wrapper .person img {
         border-radius: 50%;
         z-index: 1;
         position: relative;
-        margin-bottom: 1rem; }
+        margin-bottom: 2.5rem; }
     .team .person-wrapper:hover {
       transform: scale(1);
       overflow: visible;
