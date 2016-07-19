@@ -568,4 +568,36 @@ section {
   vertical-align: middle;
   line-height: normal; }
 
+.bigText {
+  font-size: 2.25em;
+  text-align: center;
+  font-family: "Blogger Sans", sans-serif;
+  font-weight: bold; }
+
+.secondText {
+  font-family: "Blogger Sans", sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center; }
+
+.greenBG {
+  background-color: #00B572;
+  color: white;
+  font-size: 1.5em; }
+  .greenBG img {
+    width: 100%; }
+
+.descriptor {
+  line-height: 33px; }
+
+.picTitle {
+  font-size: 2em;
+  font-family: "Blogger Sans", sans-serif;
+  font-weight: bold; }
+
+.sayhi {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
