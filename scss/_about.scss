@@ -1,0 +1,52 @@
+.nogaImage {
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-image: url('../assets/noga.png');
+  position: relative;
+}
+
+.text-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.bigText {
+  font-size: 2.25em;
+  text-align: center;
+  font-family: $title-font;
+  font-weight: bold;
+}
+
+.secondText {
+  font-family: $title-font;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.greenBG {
+  background-color: $primary-color;
+  color: white;
+  img {
+    width: 100%;
+  }
+  font-size: 1.5em;
+}
+
+.descriptor {
+  line-height: 33px;
+}
+
+.picTitle {
+  font-size: 2em;
+  font-family: $title-font;
+  font-weight: bold;
+}
+
+.sayhi {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}

@@ -20,6 +20,13 @@ body {
   }
 }
 
+.greyText {
+  color: #5B5B5B;
+  a {
+    color: #5B5B5B;
+  }
+}
+
 .spacerFifty {
   height: 50px;
 }
@@ -34,6 +41,10 @@ body {
 
 .spacerSixty {
   height: 60px;
+}
+
+.spacerEighty {
+  height: 80px;
 }
 
 .row {
