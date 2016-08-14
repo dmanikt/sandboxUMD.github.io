@@ -511,6 +511,12 @@ body {
 .spacerEighty {
   height: 80px; }
 
+.spacerTwenty {
+  height: 20px; }
+
+.spacerTen {
+  height: 10px; }
+
 .row:after {
   content: "";
   display: table;
@@ -521,6 +527,29 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+
+input {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4DCB9C;
+  border: 0px solid;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+textarea {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4DCB9C;
+  border: 0px solid;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+form {
+  font-size: 1.5em; }
 
 .topnav {
   background-color: transparent;
@@ -599,5 +628,12 @@ section {
   font-size: 1.5em;
   font-weight: bold;
   text-align: center; }
+
+.requestInfo {
+  font-size: 1.5em; }
+
+.submitText {
+  font-size: 1.5em;
+  text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
