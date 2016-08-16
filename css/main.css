@@ -612,10 +612,11 @@ form {
   width: 100%;
   text-align: center; }
 
-.navcontent:hover a{
+/*.navcontent:hover a{
   color:#b5ffe4;
   transition-delay:.1s;
 }
+*/
 
 .title {
   font-family: "Blogger Sans", sans-serif;
