@@ -746,7 +746,7 @@ form {
   display: block;
   position: relative;
   margin-left: -1.5rem;
-  margin: 3.5rem 0 2.5rem; }
+  margin: 3.5rem 0 2.5rem;}
   .people:after {
     content: " ";
     visibility: hidden;
@@ -757,6 +757,7 @@ form {
     color: #111111; }
   .people .person-wrapper {
     width: 25%;
+    height: 20%;
     padding-bottom: 30%;
     display: inline-block;
     position: relative;
@@ -789,10 +790,18 @@ form {
       }
       .people .person-wrapper .person:after, .people .person-wrapper .person:before {
         background-color: #ffffff; 
+        
       }
-      .people .person-wrapper .person .name, .people .person-wrapper .person .description {
+      .people .person-wrapper .person .name{
         display: none;
-        padding-bottom: 5px;
+        position: relative;
+        margin-bottom: 1.5rem;
+      }
+
+      .people .person-wrapper .person .description {
+        display: none;
+        position: relative;
+        margin-bottom: 1.5rem;
       }
       .people .person-wrapper .person img {
         border-radius: 50%;
