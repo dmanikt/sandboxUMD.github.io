@@ -795,7 +795,7 @@ form {
       .people .person-wrapper .person .name{
         display: none;
         position: relative;
-        margin-bottom: 1.5rem;
+        margin-bottom: .75rem;
       }
 
       .people .person-wrapper .person .description {
