@@ -807,7 +807,7 @@ form {
         border-radius: 50%;
         z-index: 1;
         position: relative;
-        margin-bottom: 1rem; }
+        margin-bottom: .5rem; }
     .people .person-wrapper:hover {
       transform: scale(1);
       overflow: visible;
