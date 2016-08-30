@@ -824,7 +824,17 @@ form {
           display: block; }
 
 
-
+.events table {
+  border-collapse: collapse;
+}
+.events th,
+.events td {
+  border: 1px solid #c6c7cc;
+  padding: 10px 15px;
+}
+.events th {
+  font-weight: bold;
+}
 
 
 /*# sourceMappingURL=main.css.map */
