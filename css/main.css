@@ -482,6 +482,7 @@ th {
   .one-half.column {
     width: 48%; }
   /* Offsets */
+  
   .offset-by-one.column,
   .offset-by-one.columns {
     margin-left: 8.66666666667%; }
