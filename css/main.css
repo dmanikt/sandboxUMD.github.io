@@ -832,6 +832,7 @@ form {
   /*border: 1px solid #c6c7cc;*/
   padding: 15px 25px;
   text-align: center;
+  border-bottom: 1px solid #2bb6f7;
 }
 .events th {
   font-weight: bold;
