@@ -844,4 +844,82 @@ form {
   font-weight: bold;
 }
 
+.splash{
+  background-image: url(../assets/home.png);
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.article {
+  width:100%;
+  height:100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  color:white;
+  
+}
+
+.imaaj{
+  background-image: url(../assets/home.png);
+}
+
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(10,10,10,0.5);
+}
+
+.faq{
+  margin:40px auto;
+  max-width:650px;
+  line-height:1.6;
+  font-size:18px;
+  color:#444;
+  padding:0 10px
+}
+
+.question{
+  font-family: "Blogger Sans", sans-serif;  
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.answer{
+  font-family: "Blogger Sans", sans-serif;
+  text-align: left;
+  font-size:1;
+  line-height: 1.5;
+  padding-bottom: 10px;
+  
+}
+
+.topic{
+  font-family: "Blogger Sans", sans-serif;
+  color: #00B572;  
+  text-align: left;
+  font-size: 1.5em;
+  line-height:1.2
+}
+
+
+
 /*# sourceMappingURL=main.css.map */
