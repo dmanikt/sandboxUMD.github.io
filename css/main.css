@@ -537,9 +537,9 @@ body {
     color: #00B572; }
 
 .whiteText {
-  color: white; }
+  color: #EEEEEE; }
   .whiteText a {
-    color: white; }
+    color: #EEEEEE; }
 
 .greyText {
   color: #5B5B5B; }
@@ -642,7 +642,7 @@ form {
     width: 40px; }
 
 .nogaImage {
-  color: white;
+  color: #EEEEEE;
   text-align: center;
   width: 100%;
   background-image: url("../assets/noga.png");
@@ -667,7 +667,7 @@ form {
 
 .greenBG {
   background-color: #00B572;
-  color: white;
+  color: #EEEEEE;
   font-size: 1.5em; }
   .greenBG img {
     width: 100%; }
@@ -844,33 +844,14 @@ form {
   font-weight: bold;
 }
 
-.splash{
-  background-image: url(../assets/home.png);
-}
 
 
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  text-align: center;
-}
-
-.article {
-  width:100%;
-  height:100%;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
-  color:white;
-  
-}
-
-.imaaj{
-  background-image: url(../assets/home.png);
+.home { 
+  background: url(../assets/home.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 
@@ -883,7 +864,7 @@ body {
   height:100%;
   display: block;
   z-index:0;
-  background-color: rgba(10,10,10,0.5);
+  background-color: rgba(10,10,10,0.63);
 }
 
 .faq{
