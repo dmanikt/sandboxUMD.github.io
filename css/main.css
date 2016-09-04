@@ -904,6 +904,10 @@ form {
   line-height:1.2
 }
 
+footer{
+  position: fixed;
+  bottom: 0;
+}
 
 
 /*# sourceMappingURL=main.css.map */
