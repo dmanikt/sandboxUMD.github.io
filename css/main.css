@@ -839,11 +839,13 @@ form {
   font-weight: bold;
 }
 
-.events a:hover{
+.events a{
   text-decoration: underline;
-  font-weight: bold;
 }
 
+.events a:hover{
+  color:#acecff;
+}
 
 
 .home { 
