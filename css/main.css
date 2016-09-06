@@ -827,7 +827,9 @@ form {
 
 .events table {
   border-collapse: collapse;
+  white-space: nowrap; /*may need to take this out if desciption is too long*/
 }
+
 .events th,
 .events td {
   /*border: 1px solid #c6c7cc;*/
