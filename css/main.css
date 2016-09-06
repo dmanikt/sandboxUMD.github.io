@@ -335,7 +335,7 @@ fieldset {
 
 /**
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 2. Remove padding so mentors aren't caught out if they zero out fieldsets.
  * 3. Corrects text not wrapping in Firefox 3.
  * 4. Corrects alignment displayed oddly in IE 6/7.
  */
@@ -693,7 +693,7 @@ form {
 
 
 
-/*PEOPLE PAGE*/
+/*mentors PAGE*/
 .name{
   font-weight: 400;
   font-size: 1rem; }
@@ -705,12 +705,12 @@ form {
   font-size: 1rem; }
 
 
-.people ul, .people ol {
+.mentors ul, .mentors ol {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-.people img {
+.mentors img {
   max-width: 100%;
   display: block; 
 }
@@ -738,25 +738,25 @@ form {
   max-width: 72rem; }
 
 @media screen and (max-width: 640px) {
-  .people .person-wrapper {
+  .mentors .mentor-wrapper {
     width: 33.333333333%;
     padding-bottom: 33.333333333%; } }
 
 
-.people {
+.mentors {
   display: block;
   position: relative;
   margin-left: -1.5rem;
   margin: 3.5rem 0 2.5rem;}
-  .people:after {
+  .mentors:after {
     content: " ";
     visibility: hidden;
     display: block;
     height: 0;
     clear: both; }
-  .people a {
+  .mentors a {
     color: #111111; }
-  .people .person-wrapper {
+  .mentors .mentor-wrapper {
     width: 25%;
     height: 20%;
     padding-bottom: 30%;
@@ -775,7 +775,7 @@ form {
     -moz-transition: 0.15s 0s ease transform;
     -o-transition: 0.15s 0s ease transform;
     transition: 0.15s 0s ease transform; }
-    .people .person-wrapper .person {
+    .mentors .mentor-wrapper .mentor {
       padding: 1.5rem 2.5rem;
       position: absolute;
       border: 2px solid transparent;
@@ -789,27 +789,27 @@ form {
       z-index: 1;
       border: 2px solid transparent;
       }
-      .people .person-wrapper .person:after, .people .person-wrapper .person:before {
+      .mentors .mentor-wrapper .mentor:after, .mentors .mentor-wrapper .mentor:before {
         background-color: #ffffff; 
         
       }
-      .people .person-wrapper .person .name{
+      .mentors .mentor-wrapper .mentor .name{
         display: none;
         position: relative;
         margin-bottom: .75rem;
       }
 
-      .people .person-wrapper .person .description {
+      .mentors .mentor-wrapper .mentor .description {
         display: none;
         position: relative;
         margin-bottom: 1.5rem;
       }
-      .people .person-wrapper .person img {
+      .mentors .mentor-wrapper .mentor img {
         border-radius: 50%;
         z-index: 1;
         position: relative;
         margin-bottom: .5rem; }
-    .people .person-wrapper:hover {
+    .mentors .mentor-wrapper:hover {
       transform: scale(1);
       overflow: visible;
       z-index: 2;
@@ -818,10 +818,10 @@ form {
       }
 
        }
-      .people .person-wrapper:hover .person {
+      .mentors .mentor-wrapper:hover .mentor {
         border: 2px solid transparent; 
         }
-        .people .person-wrapper:hover .person .name, .people .person-wrapper:hover .person .description {
+        .mentors .mentor-wrapper:hover .mentor .name, .mentors .mentor-wrapper:hover .mentor .description {
           display: block; }
 
 
