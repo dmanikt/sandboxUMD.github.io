@@ -1,5 +1,5 @@
 # sandboxUMD.github.io
-homepage
+homepage: sandbox.cs.umd.edu
 
 Just a few rules when working with this project
 
