@@ -12,4 +12,4 @@ Then, submit a pull request for someone to go over, and THEN it will be merged i
 
 # Editor?
 
-<a href = "http://brackets.io/">Brackets</a>
+<a href = "http://brackets.io/">Brackets</a> or regular HTML
