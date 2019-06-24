@@ -6,7 +6,7 @@ $nav-font: 'Open Sans',
 sans-serif;
 $primary-color: #00B572;
 $nav-height: 85px;
-@import "normalize";
+@import "node_modules/normalize-scss/sass/normalize/import-now";
 @import "grid";
 @import "standards";
 @import "navStyles";
